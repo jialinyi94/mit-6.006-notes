@@ -16,7 +16,7 @@ Contents
    :caption: Search Problem (Data Structure)
    :maxdepth: 2
 
-   sort/balanced_binary_tree.rst
+   sort/balanced_binary_tree
 
 .. toctree::
    :caption: Sort Algorithm
