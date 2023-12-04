@@ -10,8 +10,6 @@ The notes are based on the materials provided in `MIT OCW version of this course
 
    This project is under active development.
 
-Contents
-========
 
 .. toctree::
    :caption: Search Problem (Data Structure)
