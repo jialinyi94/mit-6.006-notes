@@ -5,7 +5,7 @@ Balanced Binary Tree
 .. contents:: Table of Contents
 
 Binary tree
-===
+---
 
 A tree is a connected graph with no cycles.
 
@@ -23,7 +23,7 @@ In binary tree, each node has at most two child nodes, left child and right chil
 
 
 Travesal order
-===
+---
 
 Every node in the left subtree of node <X> comes *before* <X> in the traversal order; and every node in the right subtree of node <X> comes *after* <X> in the traversal order.
 
@@ -36,7 +36,7 @@ Every node in the left subtree of node <X> comes *before* <X> in the traversal o
 
 
 Tree navigation
-===
+---
 
 .. code-block:: python
     
