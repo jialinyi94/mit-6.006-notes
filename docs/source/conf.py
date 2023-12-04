@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'mit-6.006-notes'
+copyright = '2023, Jialin Yi'
+author = 'Jialin Yi'
 
 release = '0.1'
 version = '0.1.0'
