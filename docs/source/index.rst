@@ -16,18 +16,4 @@ Contents
    :caption: Search Problem (Data Structure)
    :maxdepth: 2
 
-   sort/balanced_binary_tree
-
-.. toctree::
-   :caption: Sort Algorithm
-   :maxdepth: 2
-
-
-.. toctree::
-   :caption: Shortest Path Algorithm
-   :maxdepth: 2
-
-
-.. toctree::
-   :caption: Design of Algorithms
-   :maxdepth: 2
+   sort/balanced_binary_tree.rst
