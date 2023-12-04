@@ -1,13 +1,9 @@
-Welcome to Lumache's documentation!
+Welcome to MIT 6.006 Notes!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+This is an *unofficial* website for **MIT 6.006 Spring 2020** course notes.
+The notes are based on the materials provided in `MIT OCW version of this course <https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/>`.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
 
 .. note::
 
@@ -17,6 +13,21 @@ Contents
 --------
 
 .. toctree::
+   :caption: Search Problem (Data Structure)
+   :maxdepth: 2
 
-   usage
-   api
+   sort/balanced_binary_tree.rst
+
+.. toctree::
+   :caption: Sort Algorithm
+   :maxdepth: 2
+
+
+.. toctree::
+   :caption: Shortest Path Algorithm
+   :maxdepth: 2
+
+
+.. toctree::
+   :caption: Design of Algorithms
+   :maxdepth: 2
