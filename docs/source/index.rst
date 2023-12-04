@@ -3,7 +3,7 @@ Welcome to MIT 6.006 Notes!
 ===================================
 
 This is an *unofficial* website for **MIT 6.006 Spring 2020** course notes.
-The notes are based on the materials provided in `MIT OCW version of this course <https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/>`.
+The notes are based on the materials provided in `MIT OCW version of this course https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020`_.
 
 
 .. note::
