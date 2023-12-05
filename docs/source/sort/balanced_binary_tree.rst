@@ -26,7 +26,7 @@ Travesal order
 
 Every node in the left subtree of node <X> comes *before* <X> in the traversal order; and every node in the right subtree of node <X> comes *after* <X> in the traversal order.
 
-.. admonition:: You Should Know
+.. note:: You Should Know
     The time complexity is O(n) where n is the number of nodes in the tree
 
 .. code-block:: python
@@ -47,7 +47,7 @@ Every node in the left subtree of node <X> comes *before* <X> in the traversal o
 Tree navigation
 ===============
 
-.. admonition:: You Should Know
+.. note:: You Should Know
     :class: note
     All the methods runs in O(h) where h is the hight of the tree
 
