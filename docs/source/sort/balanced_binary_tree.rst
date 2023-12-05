@@ -48,7 +48,6 @@ Tree navigation
 ===============
 
 .. note:: You Should Know
-    :class: note
     All the methods runs in O(h) where h is the hight of the tree
 
 
