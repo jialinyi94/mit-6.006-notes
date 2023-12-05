@@ -13,14 +13,13 @@ In binary tree, each node has at most two child nodes, left child and right chil
 
 .. code-block:: python
 
-    class Binary_Node:
+    class TreeNode:
         def __init__(A, x): # O(1)
             A.item = x
             A.left = None
             A.right = None
             A.parent = None
             A.subtree_update()
-
 
 Travesal order
 ==============
@@ -29,10 +28,17 @@ Every node in the left subtree of node <X> comes *before* <X> in the traversal o
 
 .. code-block:: python
     
-    def subtree_iter(A): # O(n)
-        if A.left: yield from A.left.subtree_iter()
-        yield A
-        if A.right: yield from A.right.subtree_iter()
+    def traverse(node: TreeNode):
+        """
+        Assume: node is not None
+        """
+        if node.right: 
+            for node in self.traverse(node.right):
+                yield node
+        yield node
+        if node.left:
+            for node in self.traverse(node.left):
+                yield node
 
 
 Tree navigation
@@ -45,24 +51,36 @@ Tree navigation
     h: the hight of the tree
     '''
 
-    def subtree_first(A): 
-        if A.left: return A.left.subtree_first()
-        else: return A
+    def subtree_first(node: TreeNode):
+        """
+        Assume: node is not None
+        """
+        if node.left: return subtree_first(A.left)
+        else: return node
 
-    def subtree_last(A): # O(h)
-        if A.right: return A.right.subtree_last()
-        else: return A
+    def subtree_last(node: TreeNode): # O(h)
+        """
+        Assume: node is not None
+        """
+        if node.right: return subtree_last(node.right)
+        else: return node
 
 
-    def successor(A): # O(h)
-        if A.right: return A.right.subtree_first()
-        while A.parent and (A is A.parent.right):
-            A = A.parent
-        return A.parent
+    def successor(node: TreeNode): # O(h)
+        """
+        Assume: node is not None
+        """
+        if node.right: return subtree_first(node.right)
+        while node.parent and (node is node.parent.right):
+            node = node.parent
+        return node.parent
 
-    def predecessor(A): # O(h)
-        if A.left: return A.left.subtree_last()
-        while A.parent and (A is A.parent.left):
-            A = A.parent
-        return A.parent
+    def predecessor(node: TreeNode): # O(h)
+        """
+        Assume: node is not None
+        """
+        if node.left: return subtree_last(node.left)
+        while node.parent and (node is node.parent.left):
+            node = node.parent
+        return node.parent
 
