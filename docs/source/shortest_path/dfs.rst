@@ -8,6 +8,7 @@ Depth-First Search with Back-Tracking
 =====================================
 
 .. code-block:: python
+    
     def dfs(start, destination, adj, visited=None, path=None):
         if start == destination:
             return path
