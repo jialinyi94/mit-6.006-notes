@@ -16,7 +16,7 @@ Implementation
 ==============
 
 .. code-block:: python
-    def floyd_warshall(n: int, edges: list) -> list:
+    def floyd_warshall_directed(n: int, edges: list):
         """
         Assumes that edges are directed, i.e. (a, b) != (b, a)
         """
