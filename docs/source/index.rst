@@ -16,3 +16,10 @@ The notes are based on the materials provided in `MIT OCW version of this course
    :maxdepth: 2
 
    sort/balanced_binary_tree.rst
+
+.. toctree::
+   :caption: Shortest Path Problems
+   :maxdepth: 2
+
+   Shortest_path/floyd_warshall.rst
+   
