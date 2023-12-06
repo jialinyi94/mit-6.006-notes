@@ -21,5 +21,6 @@ The notes are based on the materials provided in `MIT OCW version of this course
    :caption: Shortest Path Problems
    :maxdepth: 2
 
+   shortest_path/dfs.rst
    shortest_path/floyd_warshall.rst
    
