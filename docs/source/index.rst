@@ -24,3 +24,8 @@ The notes are based on the materials provided in `MIT OCW version of this course
    shortest_path/dfs.rst
    shortest_path/floyd_warshall.rst
    
+.. toctree::
+   :caption: Summary
+   :maxdepth: 2
+
+   summary/data_structure_cheatsheet.rst
