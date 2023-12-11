@@ -15,7 +15,8 @@ The notes are based on the materials provided in `MIT OCW version of this course
    :caption: Search Problem (Data Structure)
    :maxdepth: 2
 
-   sort/balanced_binary_tree.rst
+   search/hash_table.rst
+   search/balanced_binary_tree.rst
 
 .. toctree::
    :caption: Shortest Path Problems
